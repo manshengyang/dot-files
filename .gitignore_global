@@ -1,0 +1,5 @@
+*~
+.DS_Store
+*.swp
+test.sqlite3
+tags

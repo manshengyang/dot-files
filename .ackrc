@@ -1,0 +1,11 @@
+--type-set
+sass=.sass,.scss
+--type-set
+coffee=.coffee
+--type-set
+slim=.slim
+--type-set
+yml=.yml
+
+--ignore-file=ext:log
+--ignore-file=is:tags

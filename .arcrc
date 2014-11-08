@@ -1,0 +1,22 @@
+{
+  "config"  : {
+    "browser" : "firefox"
+  },
+  "aliases" : {
+    "f" : [
+      "feature"
+    ],
+    "d" : [
+      "diff"
+    ],
+    "t" : [
+      "tasks"
+    ],
+    "p" : [
+      "patch"
+    ],
+    "b" : [
+      "browse"
+    ]
+  }
+}

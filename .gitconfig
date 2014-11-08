@@ -1,0 +1,30 @@
+[user]
+  name = Mansheng Yang
+  email = mansheng.yang@gmail.com
+[core]
+  excludesfile = ~/.gitignore_global
+[push]
+  default = simple
+[color]
+  ui = true
+[alias]
+  co = checkout
+  ci = commit
+  cim = commit -m
+  log1 = log -1 -p
+  aa = add -A
+  a = add
+  amend = commit --amend
+  amenda = commit -a --amend
+  br = branch
+  s = status
+  d = diff
+  dc = diff --cached
+  sub = submodule
+  updatesub = submodule foreach git pull origin master
+[difftool "sourcetree"]
+  cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+  path = 
+[mergetool "sourcetree"]
+  cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+  trustExitCode = true
