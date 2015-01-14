@@ -1,0 +1,22 @@
+set number
+set relativenumber
+set tabstop=2
+set shiftwidth=2
+set smarttab
+set expandtab
+set foldmethod=indent
+set foldlevel=99
+" make backspace work like most other apps
+set backspace=2
+set ic
+set cc=100
+filetype plugin indent on
+
+set incsearch
+set hlsearch
+" Press Space to turn off highlighting and clear any message already displayed.
+nnoremap <silent> <Space> :nohlsearch<Bar>:echo<CR>
+
+" beginning and end of the line
+nnoremap H ^
+nnoremap L $
