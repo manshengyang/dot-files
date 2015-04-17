@@ -13,9 +13,9 @@ set cc=100
 filetype plugin indent on
 
 set incsearch
-set hlsearch
+" set hlsearch
 " Press Space to turn off highlighting and clear any message already displayed.
-nnoremap <silent> <Space> :nohlsearch<Bar>:echo<CR>
+" nnoremap <silent> <Space> :nohlsearch<Bar>:echo<CR>
 
 " beginning and end of the line
 nnoremap H ^
