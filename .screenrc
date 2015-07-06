@@ -2,4 +2,9 @@ shell bash # Tell screen your default shell
 startup_message off # Turn off start message
 term "screen-256color"
 
-alterscreen on
+altscreen on
+
+bind ; focus
+
+defscrollback 5000
+autodetach on
