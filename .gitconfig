@@ -11,7 +11,10 @@
   co = checkout
   ci = commit
   cim = commit -m
+  l = log --oneline --graph
+  logp = log -p
   log1 = log -1 -p
+  logm = log --merge
   aa = add -A
   a = add
   amend = commit --amend
@@ -22,6 +25,9 @@
   dc = diff --cached
   sub = submodule
   updatesub = submodule foreach git pull origin master
+  wl = wip log -p
+  wlp = wip log -p -u
+  wlg = wip log -p -u -r
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
 	path = 
