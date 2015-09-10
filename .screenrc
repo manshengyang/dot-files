@@ -9,3 +9,5 @@ bind X remove
 
 defscrollback 5000
 autodetach on
+
+caption always "%{-b ..}%-w%{+b ..}[[%n%f*%t]]%{-}%+w"
