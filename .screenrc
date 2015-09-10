@@ -1,4 +1,4 @@
-shell bash # Tell screen your default shell
+shell zsh # Tell screen your default shell
 startup_message off # Turn off start message
 term "screen-256color"
 

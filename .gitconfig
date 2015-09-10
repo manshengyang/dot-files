@@ -3,6 +3,7 @@
   email = mansheng.yang@gmail.com
 [core]
   excludesfile = ~/.gitignore_global
+	pager = less -F -X
 [push]
   default = simple
 [color]
