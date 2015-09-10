@@ -52,6 +52,7 @@ ENABLE_CORRECTION="true"
 plugins=(git docker scala sbt ssh-agent screen vi-mode)
 
 zstyle :omz:plugins:ssh-agent agent-forwarding on
+bindkey '^r' history-incremental-search-backward
 
 # User configuration
 
