@@ -5,6 +5,7 @@ term "screen-256color"
 altscreen on
 
 bind ; focus
+bind X remove
 
 defscrollback 5000
 autodetach on
