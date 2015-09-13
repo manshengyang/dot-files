@@ -29,6 +29,7 @@
   wl = wip log -p
   wlp = wip log -p -u
   wlg = wip log -p -u -r
+	home = rev-parse --show-toplevel
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
 	path = 

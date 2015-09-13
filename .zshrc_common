@@ -9,6 +9,7 @@ set -k
 source ~/.bash_aliases
 alias zshconfig="$EDITOR ~/.zshrc"
 alias update-dotfiles="pushd $(dirname $(readlink ~/.zshrc_common)); git pull && ./scripts/link.sh; popd"
+alias git-home="cd \$(git rev-parse --show-toplevel)"
 
 # --------- vi-mode --------- 
 # Ensures that $terminfo values are valid and updates editor information when
