@@ -1,7 +1,9 @@
+#!/bin/bash
+
 cur=`pwd`
-for f in $(find "$cur" -name ".??*")
-do
-  if [ "$f" != "$cur/.git" ]
-  then ln -sf "$f" $HOME
+for f in $(find "$cur" -name ".??*"); do
+  name=$(basename $f)
+  if [[ "$name" != .git ]]; then
+    [[ ! -e ~/$name || -L ~/$name ]] && ln -sf "$name" $HOME
   fi
 done
