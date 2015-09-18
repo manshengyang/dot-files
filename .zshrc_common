@@ -10,6 +10,7 @@ source ~/.bash_aliases
 alias zshconfig="$EDITOR ~/.zshrc"
 alias update-dotfiles="pushd $(dirname $(readlink ~/.zshrc_common)); git pull && ./scripts/link.sh; popd"
 alias git-home="cd \$(git rev-parse --show-toplevel)"
+alias vimconfig="$EDITOR ~/.vimrc"
 
 # --------- vi-mode --------- 
 # Ensures that $terminfo values are valid and updates editor information when
@@ -48,6 +49,7 @@ bindkey -M vicmd 'v' edit-command-line
 # allow ctrl-p, ctrl-n for navigate history (standard behaviour)
 bindkey '^P' up-history
 bindkey '^N' down-history
+bindkey '^r' history-incremental-search-backward
 
 # allow ctrl-h, ctrl-w, ctrl-? for char and word deletion (standard behaviour)
 bindkey '^?' backward-delete-char
