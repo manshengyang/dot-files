@@ -1,6 +1,6 @@
 alias s="screen"
 alias sr="screen -r"
-alias ss="screen -s"
+alias ss="screen -S"
 alias sl="screen -list"
 
 alias rm="rm -i"
