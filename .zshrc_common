@@ -11,6 +11,7 @@ alias zshconfig="$EDITOR ~/.zshrc"
 alias update-dotfiles="pushd $(dirname $(readlink ~/.zshrc_common)); git pull && ./scripts/link.sh; popd"
 alias git-home="cd \$(git rev-parse --show-toplevel)"
 alias vimconfig="$EDITOR ~/.vimrc"
+alias git-trace="git log --oneline --graph --decorate --all \$(git reflog | awk '{print \$1}')"
 
 # --------- vi-mode --------- 
 # Ensures that $terminfo values are valid and updates editor information when

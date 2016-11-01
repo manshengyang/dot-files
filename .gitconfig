@@ -17,6 +17,7 @@
   log1 = log -1 -p
   logm = log --merge
   aa = add -A
+  au = add -u
   a = add
   amend = commit --amend
   amenda = commit -a --amend
@@ -25,10 +26,13 @@
   d = diff
   dc = diff --cached
   sub = submodule
+  subrm = submodule-rm
   updatesub = submodule foreach git pull origin master
   wl = wip log -p
   wlp = wip log -p -u
   wlg = wip log -p -u -r
+  rescue = "!git fsck --no-reflog | awk '/dangling commit/ {print $3}'"
+  rescuek = "!gitk --all $(git fsck --no-reflog | awk '/dangling commit/ {print $3}')"
 	home = rev-parse --show-toplevel
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"

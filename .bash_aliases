@@ -6,3 +6,4 @@ alias sl="screen -list"
 alias rm="rm -i"
 
 alias ocaml="rlwrap ocaml"
+alias bfg="java -jar ~/bin/bfg-1.12.12.jar"
