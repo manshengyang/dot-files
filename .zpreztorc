@@ -26,7 +26,8 @@ zstyle ':prezto:load' zmodule 'attr' 'stat' 'clone' #'complete' 'complist'
 zstyle ':prezto:load' pmodule \
   'environment' 'terminal' 'editor' 'history' 'directory' 'spectrum' 'utility' 'completion' \
   'prompt' 'git' 'macports' 'ocaml' 'screen' 'history-substring-search' 'osx' 'rsync' \
-  'ssh' 'syntax-highlighting' 'terminal' 'utility' 'archive'
+  'syntax-highlighting' 'terminal' 'utility' 'archive'
+# disabled 'ssh' to speed up startup
 
 #
 # Editor
