@@ -1,1 +1,4 @@
 --langmap=Lisp:+.clj
+--exclude=.git
+--exclude=bazel-*
+--exclude=tmp

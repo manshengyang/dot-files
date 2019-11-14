@@ -1,7 +1,12 @@
-"1.0
+"hg7218
 
 loadplugins '\.(js|penta)$'
 group user
+set cdpath=''
 set guioptions=Crsm
+set passkeys='https://mail\.google\.com':xsem!#rRaAvN[]{}z.IU=-gidac/?lujkonp
+
+imap <C-j> <Esc>
+cmap <C-j> <Esc>
 
 " vim: set ft=pentadactyl:
