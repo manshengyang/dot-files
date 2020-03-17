@@ -3,3 +3,4 @@
 *.swp
 test.sqlite3
 tags
+__pycache__
