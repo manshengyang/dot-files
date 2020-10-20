@@ -9,4 +9,8 @@ set passkeys='https://mail\.google\.com':xsem!#rRaAvN[]{}z.IU=-gidac/?lujkonp
 imap <C-j> <Esc>
 cmap <C-j> <Esc>
 
-" vim: set ft=pentadactyl:
+cmap <C-j> <ESC>
+imap <C-j> <ESC>
+
+nmap <C-t> :set go+=T<cr>
+nmap <C-S-t> :set go-=T<cr>
