@@ -4,3 +4,4 @@
 test.sqlite3
 tags
 __pycache__
+perf.data*
