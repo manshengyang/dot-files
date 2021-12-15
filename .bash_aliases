@@ -1,11 +1,11 @@
-alias s="screen"
-alias sr="screen -r"
-alias ss="screen -S"
-alias sl="screen -list"
+# alias s="screen"
+# alias sr="screen -r"
+# alias ss="screen -S"
+# alias sl="screen -list"
 
-alias ts="tmux new -s"
-alias tl="tmux list-sessions"
-alias tr="tmux attach-session -t"
+alias ss="tmux new -s"
+alias sl="tmux list-sessions"
+alias sr="tmux attach-session -t"
 
 alias rm="rm -i"
 
