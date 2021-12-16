@@ -1,6 +1,11 @@
 #!/bin/bash
 
-cd $(dirname $(dirname $(readlink -f $0)))
+if [[ $(uname) == "Darwin" ]]; then
+  filename=$(realpath $0)
+else
+  filename=$(readlink -f $0)
+fi
+cd $(dirname $(dirname $filename))
 cur=`pwd`
 echo $cur
 if [[ $(basename $cur) != "dot-files" ]]; then
