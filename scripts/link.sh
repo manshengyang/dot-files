@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -e
+
 if [[ $(uname) == "Darwin" ]]; then
   filename=$(realpath $0)
 else
