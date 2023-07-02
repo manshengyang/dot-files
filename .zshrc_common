@@ -14,7 +14,7 @@ alias vimconfig="$EDITOR ~/.vimrc"
 alias git-trace="git log --oneline --graph --decorate --all \$(git reflog | awk '{print \$1}')"
 
 if type ag &> /dev/null; then
-  export FZF_DEFAULT_COMMAND='ag -U --follow -g ""'
+  export FZF_DEFAULT_COMMAND='ag -U --follow --hidden -g ""'
 fi
 
 # --------- vi-mode --------- 
