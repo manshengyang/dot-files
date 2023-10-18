@@ -78,3 +78,5 @@ fi
 if [[ -e "$HOME/bin" ]]; then
   export PATH="$HOME/bin:$PATH"
 fi
+
+export LESSCHARSET=utf-8
