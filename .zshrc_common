@@ -75,6 +75,6 @@ if [[ "$RPS1" == "" && "$RPROMPT" == "" ]]; then
   RPS1='$(vi_mode_prompt_info)'
 fi
 
-export PATH="~/bin:~/.npm-global/bin::$PATH"
+export PATH="$HOME/bin:$HOME/.npm-global/bin::$PATH"
 
 export LESSCHARSET=utf-8
