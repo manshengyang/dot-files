@@ -35,3 +35,5 @@
   rescue = "!git fsck --no-reflog | awk '/dangling commit/ {print $3}'"
   rescuek = "!gitk --all $(git fsck --no-reflog | awk '/dangling commit/ {print $3}')"
 	home = rev-parse --show-toplevel
+[init]
+	defaultBranch = master
